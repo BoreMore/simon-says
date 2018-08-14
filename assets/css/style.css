@@ -1,0 +1,160 @@
+nav {
+    animation: rainbow 10s infinite linear alternate;
+    -webkit-animation: rainbow 10s infinite linear alternate;
+    color: springgreen;
+    -webkit-text-stroke: 2px black;
+}
+@-webkit-keyframes rainbow {
+    0% {color: white}
+    25% {color: lightgreen;}
+    50% {color: deepskyblue;}
+    75% {color: palegoldenrod;}
+    100% {color: tomato;}
+}
+@keyframes rainbow {
+    0% {color: white}
+    25% {color: lightgreen;}
+    50% {color: deepskyblue;}
+    75% {color: palegoldenrod;}
+    100% {color: tomato;}
+}
+div {
+    text-align: center;
+    margin: auto;
+    /*background-color: #222;*/
+}
+.buttonDiv {
+    margin: auto 0px;
+    padding: 0px;
+}
+.inputButton {
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    margin: 0px;
+    display: block;
+    outline: none;
+}
+#buttons {
+    padding: 125px 100px 75px 100px;
+}
+button:focus {
+    outline: none !important;
+}
+.row {
+    margin: auto 0px;
+    padding: 0px;
+}
+.jumbotron {
+    background-color: white;
+    max-width: 100%;
+    padding: 0px;
+}
+#buttons {
+    display: none;
+}
+@media only screen and (max-width: 640px) {
+    .inputbuttons {
+        height: 150px;
+    }
+    #buttons {
+        padding: 50px 0px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+}
+.footer {
+    bottom: 0px;
+    font-size: 30px;
+    animation: rainbow 10s infinite ease-in alternate;
+    -webkit-animation: rainbow 10s infinite ease-in alternate;
+    padding: 20px;
+    color: black;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: #990000;
+    -webkit-text-stroke: 1.75px black;
+}
+a:hover {
+    text-decoration: none;
+    color: #990000;
+    font-size: 40px;
+    -webkit-text-stroke: 2.5px black;
+}
+#scoreDisplay {
+    color: black;
+    -webkit-text-stroke: 2px #3b3bf7;
+    padding: 50px;
+    font-size: 50px;
+    display: none;
+}
+#playAgainDiv {
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-size: 50px;
+    display: none;
+    /*-webkit-text-stroke: 2px #990000;*/
+}
+#playAgainBtn {
+    color: black;
+    font-size: 25px;
+}
+#startGameBtn {
+    font-size: 25px;
+    margin: 10px;
+}
+#howToPlay {
+    font-size: 25px;
+    margin: 10px;
+}
+#credits {
+    font-size: 25px;
+    margin: 10px;
+}
+#startGame {
+    margin: 10px;
+}
+#title {
+    animation: rainbow 10s infinite alternate-reverse;
+    color: black;
+    -webkit-text-stroke: 2px black;
+}
+#menu {
+    display: none;
+}
+#pause {
+    display: none;
+    padding: 50px;
+}
+#resume {
+    font-size: 25px;
+    margin: 20px;
+}
+#exit {
+    font-size: 25px;
+    margin: 20px;
+}
+#creditsDiv {
+    display: none;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    color: black;
+    font-size: 25px;
+    margin: 20px;
+    padding: 75px 20px;
+}
+#howToPlayDiv {
+    display: none;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    color: black;
+    font-size: 25px;
+    margin: 20px;
+    padding: 75px 20px;
+}
