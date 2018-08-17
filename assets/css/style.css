@@ -33,7 +33,21 @@ div {
     height: 200px;
     margin: 0px;
     display: block;
-    outline: none;
+}
+/*.inputButton:active {
+    box-shadow: 5px 5px 7px black;
+}*/
+.zero:active {
+    box-shadow: -5px -5px 7px darkred !important;  
+}
+.one:active {
+    box-shadow: 5px -5px 7px darkgreen !important;
+}
+.two:active {
+    box-shadow: -5px 5px 7px darkblue !important;
+}
+.three:active {
+    box-shadow: 5px 5px 7px darkgoldenrod !important;
 }
 #buttons {
     padding: 125px 100px 75px 100px;

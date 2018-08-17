@@ -52,28 +52,32 @@ function init() {
     var moves = setInterval(function() {
         switch(prevButtons[i]) {
             case 0:
-            document.getElementById("0").style.backgroundColor = "#b30000";
+            $("#0").css("backgroundColor", "#b30000");
+            $("#0").css("box-shadow", "-5px -5px 7px darkred")
             mySound = new Audio("assets/sounds/sound0.mp3");
             mySound.play();
-            setTimeout(function() {document.getElementById("0").style.backgroundColor = ""; mySound.pause();}, 600);
+            setTimeout(function() {$("#0").css("backgroundColor", ""); $("#0").css("box-shadow", "none"); mySound.pause();}, 600);
             break;
             case 1:
-            document.getElementById("1").style.backgroundColor = "#006600";
+            $("#1").css("backgroundColor", "#006600");
+            $("#1").css("box-shadow", "5px -5px 7px darkgreen")
             mySound = new Audio("assets/sounds/sound1.mp3");
             mySound.play();
-            setTimeout(function() {document.getElementById("1").style.backgroundColor = ""; mySound.pause();}, 600);
+            setTimeout(function() {$("#1").css("backgroundColor", ""); $("#1").css("box-shadow", "none"); mySound.pause();}, 600);
             break;
             case 2:
-            document.getElementById("2").style.backgroundColor = "#0000ff";
+            $("#2").css("backgroundColor", "#0000ff");
+            $("#2").css("box-shadow", "-5px 5px 7px darkblue")
             mySound = new Audio("assets/sounds/sound2.mp3");
             mySound.play();
-            setTimeout(function() {document.getElementById("2").style.backgroundColor = ""; mySound.pause();}, 600);
+            setTimeout(function() {$("#2").css("backgroundColor", ""); $("#2").css("box-shadow", "none"); mySound.pause();}, 600);
             break;
             case 3:
-            document.getElementById("3").style.backgroundColor = "#b38600";
+            $("#3").css("backgroundColor", "#b38600");
+            $("#3").css("box-shadow", "5px 5px 7px darkgoldenrod")
             mySound = new Audio("assets/sounds/sound3.mp3");
             mySound.play();
-            setTimeout(function() {document.getElementById("3").style.backgroundColor = ""; mySound.pause();}, 600);
+            setTimeout(function() {$("#3").css("backgroundColor", ""); $("#3").css("box-shadow", "none"); mySound.pause();}, 600);
             break;
         }
         i++;
