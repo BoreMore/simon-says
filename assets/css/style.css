@@ -21,7 +21,6 @@ nav {
 div {
     text-align: center;
     margin: auto;
-    /*background-color: #222;*/
 }
 .buttonDiv {
     margin: auto 0px;
@@ -34,9 +33,6 @@ div {
     margin: 0px;
     display: block;
 }
-/*.inputButton:active {
-    box-shadow: 5px 5px 7px black;
-}*/
 .zero:active {
     box-shadow: -5px -5px 7px darkred !important;  
 }
